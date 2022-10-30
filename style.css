@@ -1,0 +1,60 @@
+body{
+	background-image: linear-gradient(purple,white);
+	background-repeat: no-repeat;
+	background-size: 200% 345%;
+	background-position: relative;
+	color: white;
+}
+p{
+	font-weight: bold;
+	font-size: 20px;
+}
+textarea{
+	border-radius: 7px;
+	font-size: 20px;
+}
+button{
+	height: 60px;
+	width: 465px;
+	border-radius: 7px;
+	font-size: 20px;
+	color: purple;
+	font-weight: bold;
+
+}
+button:hover{
+	background-color: yellow;
+	font-weight: bold;
+	cursor: pointer;
+}
+@media (max-width:480px)
+{
+	body{
+		background-size: 300% 300%;
+		justify-content: center;
+		margin: auto;
+	}
+	h1{
+		justify-content: center;
+		position: relative;
+		left: 45px;
+		margin-top: 50px;
+	}
+    .divcls{
+    	width: 460px;
+    	justify-content: center;
+    	position: relative;
+    	left: 0%;
+    	margin-top:50%; 
+    }
+    textarea{
+    	width: 250px;
+    	height: 100px;
+    }
+    button{
+    	width: 250px;
+    }
+}
+.divcls{
+	//background-color: blue;
+}
